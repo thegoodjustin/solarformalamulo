@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,7 +12,7 @@
       --light-accent: #fff9ec;
     }
     .hero-bg {
-      background: url('Header-mission.jpg') center center/cover no-repeat;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('Header-mission.jpg') center center/cover no-repeat;
     }
   </style>
 </head>
@@ -26,11 +26,10 @@
 
   <!-- Hero Section -->
   <section class="hero-bg py-24 text-center text-white relative">
-    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     <div class="relative z-10">
       <h2 class="text-3xl font-bold mb-4">Help Malamulo Hospital Shine Brighter</h2>
       <p class="text-lg mb-6 max-w-2xl mx-auto">Every donation brings us closer to stable electricity and water for a hospital that serves over 50,000 people in rural Malawi.</p>
-      <a href="#donate" class="bg-[var(--accent-color)] hover:bg-yellow-600 text-white px-8 py-3 rounded-full text-lg">Donate Now</a>
+      <a href="#donate" class="bg-[var(--primary-color)] hover:bg-[var(--accent-color)] text-white px-8 py-3 rounded-full text-lg transition duration-300">Donate Now</a>
     </div>
   </section>
 
@@ -79,7 +78,7 @@
   <section id="donate" class="bg-[var(--light-accent)] py-12 px-6 text-center">
     <h2 class="text-2xl font-semibold text-[var(--primary-color)] mb-4">Make Your Donation</h2>
     <p class="mb-6 max-w-2xl mx-auto">Your contribution powers surgery, maternity care, and life-saving treatments. Please indicate “MAH Infrastructure Project” when donating.</p>
-    <a href="https://ahiglobal.org/donate" class="bg-[var(--primary-color)] hover:bg-blue-900 text-white px-8 py-3 rounded-full text-lg">Donate Online</a>
+    <a href="https://ahiglobal.org/donate" class="bg-[var(--primary-color)] hover:bg-[var(--accent-color)] text-white px-8 py-3 rounded-full text-lg transition duration-300">Donate Online</a>
     <div class="mt-6 text-sm">
       <p>Or mail a check to:</p>
       <p>Adventist Health International<br>11060 Anderson Street<br>Loma Linda, CA 92350</p>
